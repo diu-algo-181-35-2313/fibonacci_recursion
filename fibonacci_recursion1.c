@@ -5,8 +5,6 @@ long static cache_fibo[MAX_SIZE];
 
 int fibonacci(long n)
 {
-    //if(n<=1) return 1;
-    //else return fibonacci(n-1) + fibonacci(n-2);
     if(cache_fibo[n]== -1){
         if(n<=1) return 1;
         else{
